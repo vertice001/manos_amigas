@@ -1,0 +1,33 @@
+Sistema de Manos Amigas
+
+1.-Un inicio con variedad de opciones:
+-
+
+2.Login:
+-Opcion de iniciar sesion.
+-Opcion de registrarse.
+-Opcopn de cancelar.
+
+3.-Iniciar Sesion:
+-Solicita el E-Mail.
+-Solicita la Contraseña.
+-Boton Iniciar Sesion.
+-Boton Cancelar.
+
+4.-Creacion de usuario:
+4.1.-Debe contener:
+-Opcion de ingresar una foto de usuario.
+-Nombre.
+-Edad.
+-Apellido Paterno.
+-Fecha de Nacimiento.
+-Apellido Materno.
+-Rut.
+-Direccion.
+-Telefono.
+-E-Mail.
+-Usuario.
+-Contraseña.
+-Repetir Contraseña
+-Boton de Crear.
+-Boton de Cancelar.

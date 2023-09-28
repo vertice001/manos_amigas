@@ -1,0 +1,14 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "funcion_index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "nacho"
+  ],
+  "author": "red",
+  "license": "MIT"
+}

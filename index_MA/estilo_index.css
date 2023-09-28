@@ -1,0 +1,208 @@
+/* Cambia el diseño de la linea donde se encuentra el titulo "Inicio" y las demas herramientas */
+.menu {
+    position: absolute;
+    top: 4%;
+    right: 0%;
+    border: none;
+      height: 40px;
+      background-color: #000;
+      margin: 1% 0;
+      width: 97%; /* Ajustar el ancho de la línea */
+      z-index: -1;
+}
+
+/* Cambia el diseño del titulo "Inicio" */
+.tittle_index{
+    color: #ffffff;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 35px;
+    /* font-size: 200%; */
+}
+
+/* Cambia el diseño del circulo que está como fondo en el logo */
+.circle {
+    position: absolute;
+    top: 0.6%;
+    left: 0.4%;
+    width: 8%; /* Ancho del círculo en porcentaje */
+    height: 17%; /* Alto del círculo en porcentaje */
+    /* width: 100px; Ancho del círculo en pixeles */
+    /* height: 100px; Alto del círculo en pixeles */
+    background-color: #000000; /* Color de fondo del círculo */
+    border-radius: 50%; /* Hace que el elemento sea un círculo */
+}
+
+/* Cambia el tamaño del logo */
+.logo_locate{
+    position: absolute;
+    top: 0.7%;
+    left: 0.4%;
+    width: 8%; /* Ancho del logo en porcentaje */
+    height: 17%; /* Alto del logo en porcentaje */
+    /* width: 100px; Ancho deseado de la imagen */
+    /* height: auto; Altura automática para mantener la proporción  */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+}
+
+/* Cambia el diseño del texto "Buscar.." que se encuentra dentro del buscador */
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5%;
+    color: #999;
+}
+
+/* Cambia el diseño de la caja de texto del buscador */
+.search-input {
+    position: absolute;
+    top: 7%;
+    height: 3%;
+    padding: 0.7% 4% 0.7% 0.5%;
+    font-size: 100%;
+    width: 19.5%;
+    border-radius: 5px;
+    background-color: #414141;
+}
+
+/* Cambia la apariencia del contenido que ingrese el usuario en el buscador */
+.search-input:focus {
+    outline: none;
+    color: white;
+}
+
+/* Cambia el color de las letras de la frase "Buscar.." que se encuentra por defecto dentro del buscador */
+.search-input::placeholder {
+    color: #d7d7d7;
+}
+
+/* Cambia el aspecto y las caracteristicas del boton para buscar en el buscador (La lupa) */
+.search-icon {
+    position: absolute;
+    top: 8.5%;
+    right: 40.5%;
+    transform: translateY(-50%);
+    color: #999;
+    cursor: pointer;
+}
+
+/* Cambia el aspecto y las proporciones de la barra vertical a la izquierda de la pagina */
+.tools-bar {
+    position: absolute;
+    top: 2.4%;
+    left: 2.7%;
+    border: none;
+      height: 96vh;
+      background-color: #000;
+      margin: 10px 0;
+      width: 3.5%; /* Ajustar el ancho de la línea */
+      z-index: -1;
+}
+
+/* Cambia la posición del icono de perfil */
+.icon-container {
+    position: absolute;
+    right: 3%;
+    top: 7%;
+  }
+
+  /* Cambia el tamaño del icono de perfil */
+  .info-icon {
+    cursor: pointer;
+    width: 30px; /* Ajusta el ancho deseado */
+    height: 30px; /* Ajusta la altura deseada */
+  }
+
+  /* Cambia el aspecto y las proporciones de el panel que aparece al momento de presionar el icono */
+  .info-panel {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 1170%;
+    height: 1550%;
+    background-color: #f1f1f1;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+  
+/* Cambia el el aspecto y las caracteristicas del icono de perfil que aparece en el panel de perfil */
+#contenedorPerfil {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección del flujo a vertical */
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    margin-left: auto; /* Mover todo el contenido hacia la derecha */
+  }
+
+  /* Cambia el tamaño de la foto de perfil */
+  #imagenPerfil {
+    width: 160%; /* Tamaño ajustado de la foto de perfil */
+    height: 120%; /* Tamaño ajustado de la foto de perfil */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px; /* Espacio inferior entre la foto de perfil y el ícono de lápiz */
+    border: 2px solid #000;
+  }
+
+  /* Cambia la ubicación de la foto de perfil */
+  #imagenPerfil {
+    position: absolute;
+    top: 10%;
+    right: 160%;
+  }
+
+  /* Oculta el boton que se agrega por defecto para cambiar de foto de perfil */
+  #photo_profile {
+    display: none;
+  }
+
+  /* Cambia las caracteristicas de "Iniciar Sesion" dentro del panel al presionar el icono */
+h2{
+    position: absolute;
+    left: 80px;
+    top: 130px;
+}
+
+.dim{
+    width: 130%;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+.log_mail{
+    position: absolute;
+    bottom: 45%;
+    left: 11.5%;
+}
+
+.log_pass{
+    position: absolute;
+    bottom: 28%;
+    left: 11.5%;
+}
+
+.log_button{
+    position: absolute;
+    bottom: 18%;
+    left: 11.5%;
+}
+
+.forget{
+    position: absolute;
+    bottom: 6%;
+    right: 19%;
+}
+
+.reg{
+    position: absolute;
+    bottom: 18%;
+    right: 16%;
+}
