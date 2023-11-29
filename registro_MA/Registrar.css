@@ -97,7 +97,7 @@
 h1 {
     position: absolute;
     top: 10%;
-    left: 31%;
+    left: 27%;
 }
 
 /* Cambia el diseño del texto "Información Personal" */
@@ -178,7 +178,7 @@ hr {
 }
 
 /* Cambia el diseño de la caja de texto "Nombre" */
-.regis_nom {
+.nombre {
     position: absolute;
     top: 354px;
     left: 28.7%;
@@ -199,7 +199,7 @@ hr {
 } */
 
 /* Cambia el diseño de la caja de texto "Apellido Paterno" */
-.regis_ape_pa {
+.apellido_p {
     position: absolute;
     top: 354px;
     left: 28.7%;
@@ -210,7 +210,7 @@ hr {
 }
 
 /* Cambie el diseño de la caja de "Fecha de Nacimiento" */
-.regis_fnac {
+.fecha_nacimiento {
     position: absolute;
     top: 200px;
     left: 51.7%;
@@ -221,18 +221,18 @@ hr {
 }
 
 /* Cambia el diseño de la caja de texto "Apellido Materno" */
-.regis_ape_ma {
+.apellido_m {
     position: absolute;
-    top: 280px;
+    top: 265px;
     left: 28.7%;
     width: 22%;
     /*Cambia el ancho de la caja de texto*/
     border: 2px solid #000;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Cambia el diseño de la caja de texto "Rut" */
-.regis_rut {
+.rut {
     position: absolute;
     top: -35px;
     left: 28.7%;
@@ -243,9 +243,9 @@ hr {
 }
 
 /* Cambia el diseño del Combo Box de "País" */
-.regis_region {
+.region {
     position: absolute;
-    bottom: -45.5px;
+    bottom: -43px;
     left: 51.7%;
     width: 22%;
     height: 61px;
@@ -254,17 +254,18 @@ hr {
 }
 
 /* Cambia el diseño del Combo Box de "Ciudad" */
-.regis_ciudad {
+.ciudad {
     position: absolute;
-    bottom: -49px;
+    bottom: -37px;
     left: 51.7%;
     width: 22%;
+    height: 61px;
     border: 2px solid #000;
     border-radius: 10px;
 }
 
 /* Cambia el diseño de la caja de texto "Direccion" */
-.regis_direc {
+.direccion {
     position: absolute;
     bottom: -49px;
     left: 28.7%;
@@ -273,7 +274,7 @@ hr {
 }
 
 /* Cambia el diseño de la caja de texto "Telefono" */
-.regis_phone {
+.telefono {
     position: absolute;
     bottom: -49px;
     left: 28.7%;
@@ -282,7 +283,7 @@ hr {
 }
 
 /* Cambia el diseño de la caja de texto "Correo" */
-.regis_mail {
+.email {
     position: absolute;
     bottom: -49px;
     left: 28.7%;
@@ -297,7 +298,7 @@ hr {
 }
 
 /* Cambia el diseño de la caja de texto "Contraseña" */
-.regis_pass {
+.contrasena {
     position: absolute;
     bottom: -49px;
     left: 28.7%;
@@ -308,7 +309,7 @@ hr {
 }
 
 /* Cambia el diseño de la caja de texto "Confirmar Contraseña" */
-.regis_rep_pass {
+.rep-contrasena {
     position: absolute;
     bottom: 28px;
     left: 51.7%;

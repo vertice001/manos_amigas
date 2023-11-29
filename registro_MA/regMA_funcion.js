@@ -32,7 +32,7 @@ function enviarDatos() {
 
   $.ajax({
     data: formData,
-    url: 'http://localhost/MA/reg_data_MA.php',
+    url: 'http://localhost:80/bba_manos_amigas/bba.php',
     type: 'POST',
     processData: false,
     contentType: false,
@@ -58,10 +58,10 @@ function enviarDatos() {
 
 
 function redirigirPagina() {
-    // Aquí puedes especificar la URL de la página a la que deseas redirigir
-    var nuevaPagina = "../login_MA/login_MA.html";
-    
-    // Redirigir a la nueva página
-    window.location.href = nuevaPagina;
+  // Aquí puedes especificar la URL de la página a la que deseas redirigir
+  var nuevaPagina = "../login_MA/login_MA.html";
+
+  // Redirigir a la nueva página
+  window.location.href = nuevaPagina;
 }
 
