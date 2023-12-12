@@ -23,8 +23,8 @@ $rep_contraseña = $_POST['rep_contraseña'];
 
 if ($contraseña == $rep_contraseña) {
     // Consulta de inserción
-    $insert = "INSERT INTO postulante (RUT_POSTULANTE,FOTO_POSTULANTE, NOMBRE_POSTULANTE,DOCUMENTO, APELLIDO_P, APELLIDO_M, FECHA_DE_NACIMIENTO, DIRECCION_POSTULANTE, REGION, CIUDAD, EMAIL, TELEFONO, CONTRASEÑA, ESTADO) 
-    VALUES ('$rut','$foto_postulante','$documento', '$nombre', '$apellido_p', '$apellido_m', '$fecha_nacimiento', '$direccion', '$region', '$ciudad', '$email', '$telefono', '$contraseña', 'ACTIVO')";
+    $insert = "INSERT INTO postulante (RUT_POSTULANTE,FOTO_POSTULANTE, DOCUMENTO, NOMBRE_POSTULANTE, APELLIDO_P, APELLIDO_M, FECHA_DE_NACIMIENTO, DIRECCION_POSTULANTE, REGION, CIUDAD, EMAIL, TELEFONO, CONTRASEÑA, ESTADO) 
+    VALUES ('$rut','$foto_postulante','$documento', '$nombre', '$apellido_p', '$apellido_m', '$fecha_nacimiento', '$direccion', '$region', '$ciudad', '$email', '$telefono', '$contraseña', 'INACTIVO')";
 
 
 
