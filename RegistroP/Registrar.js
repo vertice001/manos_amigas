@@ -35,7 +35,7 @@ $(document).ready(function () {
 
         var rut = $('#rut').val();
         var foto_postulante = $('#photo_profile').val(); // Asumí que hay un campo para la foto
-        var documento=$('#documento').val();
+        var documento = $('#documento').val();
         var nombre = $('#nombre').val();
         var apellido_p = $('#apellido_p').val();
         var apellido_m = $('#apellido_m').val();
@@ -53,7 +53,7 @@ $(document).ready(function () {
         var datos = {
             rut: rut,
             foto_postulante: foto_postulante,
-            documento:documento,
+            documento: documento,
             nombre: nombre,
             apellido_p: apellido_p,
             apellido_m: apellido_m,
@@ -70,7 +70,7 @@ $(document).ready(function () {
 
         // Realizar la solicitud AJAX
         $.ajax({
-            url: "http://localhost:80/bba_manos_amigas/bba.php",
+            url: "http://localhost:80/manos_amigas/RegistroP/bba/bba.php",
             method: 'POST',
             dataType: 'json',
             data: datos,

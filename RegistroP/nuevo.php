@@ -46,7 +46,7 @@
     <br><br>
     <section>
         <?php
-        include("listado.php");
+        include("bba/listado.php");
         $cnn = Conectar();
 
 

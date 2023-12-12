@@ -24,7 +24,7 @@
 
     <form id="formulario" action="" method="post">
         <?php
-        include("listado.php");
+        include("bba/listado.php");
         $cnn = Conectar();
 
 
@@ -171,7 +171,7 @@
                     ?>
                 </select>
                 <label for="ciudad">Ciudad:</label>
-
+|
 
             </div>
 
