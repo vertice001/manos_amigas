@@ -16,11 +16,15 @@ function handleInputChange(event) {
         mostrarImagen(event);
     }
 }
-
-
-
-
-
+function ValidaSoloNumeros() {
+    if ((event.keyCode < 48) || (event.keyCode > 57))
+        event.returnValue = false;
+}
+function ValidaSoloLetras() {
+    if ((event.keyCode != 32) && (event.keyCode < 65) ||
+        (event.keyCode > 90) && (event.keyCode < 97) || (event.keyCode > 122))
+        event.returnValue = false;
+}
 
 
 
@@ -30,8 +34,9 @@ $(document).ready(function () {
         event.preventDefault(); // Evitar el envío del formulario por defecto
 
         var rut = $('#rut').val();
-        var foto_postulante = $('#foto_postulante').val(); // Asumí que hay un campo para la foto
-        var nombre = $('#nombre_postulante').val();
+        var foto_postulante = $('#photo_profile').val(); // Asumí que hay un campo para la foto
+        var documento=$('#documento').val();
+        var nombre = $('#nombre').val();
         var apellido_p = $('#apellido_p').val();
         var apellido_m = $('#apellido_m').val();
         var fecha_nacimiento = $('#fecha_nacimiento').val();
@@ -41,12 +46,14 @@ $(document).ready(function () {
         var email = $('#email').val();
         var telefono = $('#telefono').val();
         var contraseña = $('#contrasena').val();
-        var estado = $('#estado').val();
+        var rep_contraseña = $('#rep_contrasena').val();
+
 
 
         var datos = {
             rut: rut,
             foto_postulante: foto_postulante,
+            documento:documento,
             nombre: nombre,
             apellido_p: apellido_p,
             apellido_m: apellido_m,
@@ -56,7 +63,8 @@ $(document).ready(function () {
             ciudad: ciudad,
             email: email,
             telefono: telefono,
-            contraseña: contraseña
+            contraseña: contraseña,
+            rep_contraseña: rep_contraseña
 
         };
 
